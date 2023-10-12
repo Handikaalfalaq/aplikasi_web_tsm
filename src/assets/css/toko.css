@@ -1,0 +1,17 @@
+.containerToko{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px 25px; 
+    color: green;
+    cursor: pointer;
+}
+
+.containerToko:hover{
+    color: white;
+    background-color: green;
+}

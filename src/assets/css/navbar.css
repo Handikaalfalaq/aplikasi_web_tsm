@@ -1,0 +1,37 @@
+.navbarcss{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.homeNavbar{
+    color: white !important;
+    padding: 3px 15px !important;
+    font-size: 30px !important;
+}
+
+.activeHomeNavbar {
+    font-size: 30px !important;
+    color: black !important;
+    background-color:white !important;
+    padding: 3px 15px !important;
+    border-radius: 5px;
+}
+
+@media (max-width: 890px) {
+    .homeNavbar {
+        font-size: 20px !important;
+    }
+    .activeHomeNavbar {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .homeNavbar {
+        font-size: 17px !important;
+        
+    }
+    .activeHomeNavbar {
+        font-size: 17px !important;
+    }
+}

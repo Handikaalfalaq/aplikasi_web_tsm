@@ -1,0 +1,90 @@
+.containerGedung{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px 25px; 
+}
+
+.headerGedung{
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.searchGedung{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2px !important;
+}
+
+.formSearchGedung{
+    border: none !important;
+}
+
+.buttonSearchGedung{
+    color: black !important;
+    background-color: white !important;
+    border: none !important;
+}
+
+.buttonSearchGedung:hover{
+    color: white !important;
+    background-color: black !important;
+}
+
+.containerCardBodyGedung{
+    display: grid !important;
+    grid-template-columns: auto auto auto; 
+    grid-gap: 10px;
+    border: none !important;
+    margin: 10px 0px;
+}
+
+@media (max-width: 1400px) {
+    .containerCardBodyGedung {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 1000px) {
+    .containerCardBodyGedung {
+        grid-template-columns: auto;
+    }
+}
+
+.pesanGedung{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.cardBodyGedung{
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+    padding: 15px 20px !important;
+}
+
+.cardTitleGedung{
+    font-size: 25px !important;
+}
+.cardInformasiGedung{
+    display: flex;
+    justify-content: space-between; 
+    font-size: 20px !important;
+    margin: 3px 5px 10px 0px;
+}
+
+.cardTextGedung{
+    margin: 0px !important;
+    width: 60%;
+}
+
+.cardTextGedungRight{
+    margin: 0px !important;
+    width: 40%;
+}
+
+.cardAddressGedung a {
+    text-decoration: none;
+}

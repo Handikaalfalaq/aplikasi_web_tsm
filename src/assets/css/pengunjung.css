@@ -1,0 +1,41 @@
+.containerPengunjung{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px 25px;
+}
+
+.pengunjungTitle{
+    display: flex;
+    font-size: 25px;
+    margin: 5px 0px;
+}
+
+.containerCardPengunjung{
+    display: grid !important;
+    grid-template-columns: auto auto auto; 
+    grid-gap: 10px;
+    border: none !important;
+}
+
+@media (max-width: 890px) {
+    .containerCardPengunjung {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .containerCardPengunjung {
+        grid-template-columns: auto;
+    }
+}
+
+.cardBodyPengunjung{
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+}
+
+.cardTextPengunjung{
+    font-size: 13px;
+    margin-bottom: 3px;
+}

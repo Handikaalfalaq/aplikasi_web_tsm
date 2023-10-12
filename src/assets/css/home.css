@@ -1,0 +1,61 @@
+.containerHome{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px 25px;
+}
+
+.homeTitle{
+    display: flex;
+    font-size: 25px;
+    margin: 5px 0px;
+}
+
+.homeCard{
+    display:flex;
+    gap: 10px;
+}
+
+.containerLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 30px;
+    position: relative;
+}
+
+.lineHome {
+    background-size: contain;
+    height: 140px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+ 
+.containerDataHome{
+    display: flex;
+    flex-direction: column; 
+    margin: 10px 0px 0px 0px;
+    gap: 20px
+}
+
+.logoDataHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50px;
+    height: 33%;
+}
+
+
+.dataHome{
+    display: flex;
+    flex-direction: column;
+}
