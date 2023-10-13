@@ -5,6 +5,11 @@
     padding: 15px 25px;
 }
 
+.navbarPengunjung{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 10px 0px;
+}
 .pengunjungTitle{
     display: flex;
     font-size: 25px;

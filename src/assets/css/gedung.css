@@ -33,6 +33,20 @@
     background-color: black !important;
 }
 
+.dropdownGedung{
+    font-size:25px !important;
+}
+
+.buttonClear{
+    border: 3px solid green !important;
+    background-color: green !important;
+}
+
+.buttonClear:hover{
+    color: green !important;
+    background-color: white !important;
+}
+
 .containerCardBodyGedung{
     display: grid !important;
     grid-template-columns: auto auto auto; 

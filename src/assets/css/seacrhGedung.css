@@ -1,0 +1,23 @@
+.containerSeacrhGedung{
+    display:flex;
+    justify-content: flex-end;
+    color: white;
+    gap: 25px;
+    position: relative;
+}
+
+.notifSeacrhGedung{
+    position: absolute;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    font-size: 15px;
+    color: white;
+    top: -5px;
+    right: -5px;
+}

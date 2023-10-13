@@ -1,0 +1,20 @@
+.formModalNewBuildingData{
+    margin: 10px 30px;
+}
+
+.buttonModalNewBuildingData{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    background-color: green !important;
+    border: 2px solid green !important;
+    color: white !important; 
+    margin: 3px 0px !important;
+    border-radius: 10px !important;
+}
+
+.buttonModalNewBuildingData:hover{
+    background-color: white !important;
+    color: green !important;
+}

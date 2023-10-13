@@ -1,12 +1,14 @@
 import {React, useState, useEffect} from 'react'
 import '../assets/css/pengunjung.css'
-import {Card} from 'react-bootstrap';
+import {Card, Button} from 'react-bootstrap';
 import { connect } from 'react-redux';
 import {getDataVisitorsFromData} from '../redux/action/getData'
+import ModalTambahVisitors from '../modals/tambahVisitors'
 
 function Pengunjung({dataRedux, getDataVisitors}){
     const [visitors, setVisitors] = useState()
     const [loading, setLoading] = useState(true)
+    const [tambahVisitors, setTambahVisitors] = useState(false)
  
     useEffect(() => {
         getDataVisitors();
@@ -21,7 +23,10 @@ function Pengunjung({dataRedux, getDataVisitors}){
 
     return(
         <div className='containerPengunjung'>
-            <div className='pengunjungTitle'>Visitor's</div> 
+            <div className='navbarPengunjung'>
+                <div className='pengunjungTitle'>Visitor's</div>
+                <Button className='pengunjungPlus' onClick={() => setTambahVisitors(true)}>+ Visitors</Button>
+            </div>
             {loading ? (
                 <div >Loading...</div>
                 ):( 
@@ -42,7 +47,7 @@ function Pengunjung({dataRedux, getDataVisitors}){
                         ))}
                     </Card>
                 )}
-            
+            <ModalTambahVisitors show={tambahVisitors} onHide={() => setTambahVisitors(false)} />
         </div>
     )
 }
